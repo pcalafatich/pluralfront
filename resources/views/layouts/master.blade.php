@@ -29,14 +29,14 @@
     </head>
 
     <body>
-        @include('partials.preloader')
-        @include('partials.darkmode')
-        @include('partials.topbar')
-        @include('partials.header')
+        @include('partials.front.preloader')
+        @include('partials.front.darkmode')
+        @include('partials.front.topbar')
+        @include('partials.front.header')
         @yield('content')
-        @include('partials.footertop')
-        @include('partials.footer')
-        @include('partials.scrollbutton')
-        @include('partials.scripts')
+        @include('partials.front.footertop')
+        @include('partials.front.footer')
+        @include('partials.front.scrollbutton')
+        @include('partials.front.scripts')
     </body>
 </html>

@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-    @include('partials.contact.contactBanner')
-    @include('partials.contact.contactBoxes')
-    @include('partials.contact.contactForm')
+    @include('partials.front.contact.contactBanner')
+    @include('partials.front.contact.contactBoxes')
+    @include('partials.front.contact.contactForm')
 @endsection

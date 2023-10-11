@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-   @include('partials.about.aboutBanner')
-   @include('partials.about.aboutAbout')
-   @include('partials.subscribe')
+   @include('partials.front.about.aboutBanner')
+   @include('partials.front.about.aboutAbout')
+   @include('partials.front.subscribe')
 @endsection
